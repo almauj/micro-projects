@@ -11,6 +11,7 @@
 ## How to run it:
 ---
 - Open the main.py file into a text editor, then press start.
+- Insert the filepath of an unorginized folder once prompted.
 - Files will automatically be organized into separate folders.
 - Code can be edited to add more file formats and folders for organization.
 

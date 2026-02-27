@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Smart Task Manager</title>
+        <link rel="stylesheet" href="../task-manager/styles.css">
+    </head>
+    <body>
+        <!-- Title - Static, Unchanging -->
+        <div id="container">
+            <h1>My Task Manager</h1>
+            <p>Use the space below to add a task!</p>
+        </div>
+
+        <!--Input: Write to do item -->
+        <div>
+            <input id="writeTask" name="insertTask">
+            <button id="addTask">Add Task</button>
+        </div>
+
+        <!-- List population -->
+        <div id="container">
+            <div id="container">
+                <h3>To Do: </h3>
+                <h4 id="noTodo"></h4>
+                <ul id="todoList"> </ul>
+                
+            </div>
+            <div id="container">
+                 <h3> Completed Tasks: </h3>
+                 <div id="container3">
+                    <ul id="completeList"> </ul>
+                </div>
+            </div>
+        </div>
+        <script src="../task-manager/index.js"></script>
+    </body>
+</html>
